@@ -17,13 +17,13 @@ console.log(document.querySelector('.message').textContent);
 
 //This above process of changing HTML document or CSS styles without editing the HTML and CSS files directelky is called DOM manipulation.
 
-document.querySelector('.number').textContent = 13;
-document.querySelector('.score').textContent = 10;
+document.querySelector('.number').textContent = "?";
+document.querySelector('.score').textContent = 20;
 
 console.log(document.querySelector('.guess').value);
 //This will console the value of the guess class. but it will show empty as thers is nothing in that input element.
 
-document.querySelector('.guess').value = 23; // This will add the value.
+document.querySelector('.guess').value = ""; // This will add the value.
 console.log(document.querySelector('.guess').value); // This will show the added value.
 
 ///////////////////////////////////////////////
